@@ -5,17 +5,17 @@ Ejercicio - 7
 
 # Ingreso datos
 
-- sonrie
-- no sonrie
-- problemas
+- aSmile
+- bSmile
+- resultado
 
 # Proceso
 
-- Obtener valor sonrie 
-- Obtener valor no sonrie
-- Si sonrien monkey a y monkey b es falso
-    - Mostrar 1  //Dormimos 
-    - Si no Si monkey es verdadero Mostrar 0 //No Dormimos 
-    - Si no Mostrar 1 //Dormimos
+- Obtener valor aSmile 
+- Obtener valor bSmile
+- Si aSmile es igual a bSmile
+    - Estamos en problemas , mostrar1
+- Si no  
+    - Si no Mostrar 0
     
 # Fin 

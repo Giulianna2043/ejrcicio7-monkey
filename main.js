@@ -1,32 +1,38 @@
-function calcular()
+function monoB()
 {
-	var smile = document.getElementById("smile").value;
-	var noSmile = parseInt(document.getElementById("no_smile").value);
+	var img = document.getElementById("img_mono_b");
+	var checkB = document.getElementById("mono_b");
 
-	var isSmile = true;
-	var noSmile = false;
+	if(checkB.checked)
+		img.innerHTML = '<img src="img/feliz.jpg">';
+	else
+		img.innerHTML = '<img src="img/triste.jpg">';
+}
+function monoA()
+{
+	var img = document.getElementById("img_mono_a");
+	var checkA = document.getElementById("mono_a");
 
+	if(checkA.checked)
+	{
+		img.innerHTML = '<img class="imagen" src="img/feliz.jpg">';
+	}else{
+		img.innerHTML = '<img class="imagen" src="img/triste.jpg">';
+	}
+}
+
+function evaluar()
+{
+	var aSmile = document.getElementById("mono_a").checked;
+	var bSmile = document.getElementById("mono_b").checked;
 	var salida = document.getElementById("salida");
 
-	if(smile== "2")
+	if(aSmile == bSmile)
 	{
-		isSmile = false;
-	}
-
-	if(noSmile < 6)
-	{
-		noSmile = true;
-	}
-
-	if(issmile)
-	{
+		//problemas
 		salida.innerHTML = "1";
 	}else{
-		if(noSmile)
-		{
-			salida.innerHTML = "0";
-		}else{
-			salida.innerHTML = "1";
-		}
+		//NO hay problema
+		salida.innerHTML = "0";
 	}
 }
