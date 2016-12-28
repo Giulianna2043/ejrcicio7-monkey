@@ -7,3 +7,33 @@ body
 	width:100px;
     height:100px;
 }
+body
+{
+    background-image: url(../img/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 150%;
+    height: 50%;
+} 
+.container
+{
+    background-color: #c0d6ff;
+    border-radius: 5%;
+    margin-top: 3%;
+    font-family: 'Aref Ruqaa', serif;
+    width:50%;
+}
+.col-md-6 , .col-md-6
+{
+    padding:0 5% 4% 5%; 
+}
+.container .col-md-6
+{
+    text-align: center;
+}
+.text-center img
+{
+    width: 10%;
+    height: 10%;
+    background-color: #ffdcfa;
+    
+}
